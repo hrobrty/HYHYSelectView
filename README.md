@@ -2,4 +2,5 @@
 － 一个可以封装好的pickerview，很实用，不多说…
 － A good pickerview encapsulation, very practical, not much to say...
 ＃ 效果图
-![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)  
+    ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/one.png)  
+    ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)  
