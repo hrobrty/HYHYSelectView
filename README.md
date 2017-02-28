@@ -2,16 +2,16 @@
     一个可以封装好的pickerview，很实用，不多说…
      A good pickerview encapsulation, very practical, not much to say...
 # Pods
-- pod 'HYHYSelectView'
+    - pod 'HYHYSelectView'
 
 # 实际显示效果
-  ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/one.png)   ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)
+    ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)
  
- # 运行环境
- - object-c
- - Xcode 5 or higher
- - iOS 6.0 or higher
- - ARC
+# 运行环境
+    - object-c
+    - Xcode 5 or higher
+    - iOS 6.0 or higher
+    - ARC
 #  代码
  ``` java
  //
