@@ -5,7 +5,7 @@
     - pod 'HYHYSelectView'
 
 # 实际显示效果
-    ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)
+  ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)
  
 # 运行环境
     - object-c
