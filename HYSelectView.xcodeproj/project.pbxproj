@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6755E31E64FFF100150C2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6755E21E64FFF100150C2F /* main.m */; };
+		FF6755E61E64FFF100150C2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6755E51E64FFF100150C2F /* AppDelegate.m */; };
+		FF6755E91E64FFF100150C2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6755E81E64FFF100150C2F /* ViewController.m */; };
+		FF6755EC1E64FFF100150C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6755EA1E64FFF100150C2F /* Main.storyboard */; };
+		FF6755EE1E64FFF100150C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6755ED1E64FFF100150C2F /* Assets.xcassets */; };
+		FF6755F11E64FFF100150C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6755EF1E64FFF100150C2F /* LaunchScreen.storyboard */; };
+		FF6755FC1E64FFF100150C2F /* HYSelectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6755FB1E64FFF100150C2F /* HYSelectViewTests.m */; };
+		FF6756071E64FFF100150C2F /* HYSelectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6756061E64FFF100150C2F /* HYSelectViewUITests.m */; };
+		FF6756241E65005F00150C2F /* DialogManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6756201E65005F00150C2F /* DialogManage.m */; };
+		FF6756251E65005F00150C2F /* DialogSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6756221E65005F00150C2F /* DialogSelectView.m */; };
+		FF6756261E65005F00150C2F /* DialogSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6756231E65005F00150C2F /* DialogSelectView.xib */; };
+		FF6756291E65111D00150C2F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6756281E65111D00150C2F /* TPKeyboardAvoidingScrollView.m */; };
+		FF67562C1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF67562B1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6755F81E64FFF100150C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6755D61E64FFEF00150C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6755DD1E64FFEF00150C2F;
+			remoteInfo = HYSelectView;
+		};
+		FF6756031E64FFF100150C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6755D61E64FFEF00150C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6755DD1E64FFEF00150C2F;
+			remoteInfo = HYSelectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6755DE1E64FFF000150C2F /* HYSelectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYSelectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6755E21E64FFF100150C2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF6755E41E64FFF100150C2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF6755E51E64FFF100150C2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF6755E71E64FFF100150C2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF6755E81E64FFF100150C2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF6755EB1E64FFF100150C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF6755ED1E64FFF100150C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF6755F01E64FFF100150C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF6755F21E64FFF100150C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6755F71E64FFF100150C2F /* HYSelectViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYSelectViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6755FB1E64FFF100150C2F /* HYSelectViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSelectViewTests.m; sourceTree = "<group>"; };
+		FF6755FD1E64FFF100150C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6756021E64FFF100150C2F /* HYSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6756061E64FFF100150C2F /* HYSelectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSelectViewUITests.m; sourceTree = "<group>"; };
+		FF6756081E64FFF100150C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF67561F1E65005F00150C2F /* DialogManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogManage.h; sourceTree = "<group>"; };
+		FF6756201E65005F00150C2F /* DialogManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogManage.m; sourceTree = "<group>"; };
+		FF6756211E65005F00150C2F /* DialogSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogSelectView.h; sourceTree = "<group>"; };
+		FF6756221E65005F00150C2F /* DialogSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogSelectView.m; sourceTree = "<group>"; };
+		FF6756231E65005F00150C2F /* DialogSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DialogSelectView.xib; sourceTree = "<group>"; };
+		FF6756271E65111D00150C2F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		FF6756281E65111D00150C2F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		FF67562A1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		FF67562B1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6755DB1E64FFEF00150C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6755F41E64FFF100150C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6755FF1E64FFF100150C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6755D51E64FFEF00150C2F = {
+			isa = PBXGroup;
+			children = (
+				FF6755E01E64FFF100150C2F /* HYSelectView */,
+				FF6755FA1E64FFF100150C2F /* HYSelectViewTests */,
+				FF6756051E64FFF100150C2F /* HYSelectViewUITests */,
+				FF6755DF1E64FFF000150C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6755DF1E64FFF000150C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6755DE1E64FFF000150C2F /* HYSelectView.app */,
+				FF6755F71E64FFF100150C2F /* HYSelectViewTests.xctest */,
+				FF6756021E64FFF100150C2F /* HYSelectViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6755E01E64FFF100150C2F /* HYSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				FF67562D1E65116A00150C2F /* TPKeyboardAvoiding */,
+				FF6756161E65002A00150C2F /*  pickerview */,
+				FF6755E41E64FFF100150C2F /* AppDelegate.h */,
+				FF6755E51E64FFF100150C2F /* AppDelegate.m */,
+				FF6755E71E64FFF100150C2F /* ViewController.h */,
+				FF6755E81E64FFF100150C2F /* ViewController.m */,
+				FF6755EA1E64FFF100150C2F /* Main.storyboard */,
+				FF6755ED1E64FFF100150C2F /* Assets.xcassets */,
+				FF6755EF1E64FFF100150C2F /* LaunchScreen.storyboard */,
+				FF6755F21E64FFF100150C2F /* Info.plist */,
+				FF6755E11E64FFF100150C2F /* Supporting Files */,
+			);
+			path = HYSelectView;
+			sourceTree = "<group>";
+		};
+		FF6755E11E64FFF100150C2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF6755E21E64FFF100150C2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF6755FA1E64FFF100150C2F /* HYSelectViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6755FB1E64FFF100150C2F /* HYSelectViewTests.m */,
+				FF6755FD1E64FFF100150C2F /* Info.plist */,
+			);
+			path = HYSelectViewTests;
+			sourceTree = "<group>";
+		};
+		FF6756051E64FFF100150C2F /* HYSelectViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6756061E64FFF100150C2F /* HYSelectViewUITests.m */,
+				FF6756081E64FFF100150C2F /* Info.plist */,
+			);
+			path = HYSelectViewUITests;
+			sourceTree = "<group>";
+		};
+		FF6756161E65002A00150C2F /*  pickerview */ = {
+			isa = PBXGroup;
+			children = (
+				FF67561F1E65005F00150C2F /* DialogManage.h */,
+				FF6756201E65005F00150C2F /* DialogManage.m */,
+				FF6756211E65005F00150C2F /* DialogSelectView.h */,
+				FF6756221E65005F00150C2F /* DialogSelectView.m */,
+				FF6756231E65005F00150C2F /* DialogSelectView.xib */,
+			);
+			name = " pickerview";
+			sourceTree = "<group>";
+		};
+		FF67562D1E65116A00150C2F /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				FF6756271E65111D00150C2F /* TPKeyboardAvoidingScrollView.h */,
+				FF67562A1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				FF67562B1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				FF6756281E65111D00150C2F /* TPKeyboardAvoidingScrollView.m */,
+			);
+			name = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6755DD1E64FFEF00150C2F /* HYSelectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF67560B1E64FFF100150C2F /* Build configuration list for PBXNativeTarget "HYSelectView" */;
+			buildPhases = (
+				FF6755DA1E64FFEF00150C2F /* Sources */,
+				FF6755DB1E64FFEF00150C2F /* Frameworks */,
+				FF6755DC1E64FFEF00150C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYSelectView;
+			productName = HYSelectView;
+			productReference = FF6755DE1E64FFF000150C2F /* HYSelectView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF6755F61E64FFF100150C2F /* HYSelectViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF67560E1E64FFF100150C2F /* Build configuration list for PBXNativeTarget "HYSelectViewTests" */;
+			buildPhases = (
+				FF6755F31E64FFF100150C2F /* Sources */,
+				FF6755F41E64FFF100150C2F /* Frameworks */,
+				FF6755F51E64FFF100150C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6755F91E64FFF100150C2F /* PBXTargetDependency */,
+			);
+			name = HYSelectViewTests;
+			productName = HYSelectViewTests;
+			productReference = FF6755F71E64FFF100150C2F /* HYSelectViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF6756011E64FFF100150C2F /* HYSelectViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6756111E64FFF100150C2F /* Build configuration list for PBXNativeTarget "HYSelectViewUITests" */;
+			buildPhases = (
+				FF6755FE1E64FFF100150C2F /* Sources */,
+				FF6755FF1E64FFF100150C2F /* Frameworks */,
+				FF6756001E64FFF100150C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6756041E64FFF100150C2F /* PBXTargetDependency */,
+			);
+			name = HYSelectViewUITests;
+			productName = HYSelectViewUITests;
+			productReference = FF6756021E64FFF100150C2F /* HYSelectViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6755D61E64FFEF00150C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hrobrty;
+				TargetAttributes = {
+					FF6755DD1E64FFEF00150C2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MN96N4W443;
+					};
+					FF6755F61E64FFF100150C2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF6755DD1E64FFEF00150C2F;
+					};
+					FF6756011E64FFF100150C2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF6755DD1E64FFEF00150C2F;
+					};
+				};
+			};
+			buildConfigurationList = FF6755D91E64FFEF00150C2F /* Build configuration list for PBXProject "HYSelectView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF6755D51E64FFEF00150C2F;
+			productRefGroup = FF6755DF1E64FFF000150C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6755DD1E64FFEF00150C2F /* HYSelectView */,
+				FF6755F61E64FFF100150C2F /* HYSelectViewTests */,
+				FF6756011E64FFF100150C2F /* HYSelectViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6755DC1E64FFEF00150C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6756261E65005F00150C2F /* DialogSelectView.xib in Resources */,
+				FF6755F11E64FFF100150C2F /* LaunchScreen.storyboard in Resources */,
+				FF6755EE1E64FFF100150C2F /* Assets.xcassets in Resources */,
+				FF6755EC1E64FFF100150C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6755F51E64FFF100150C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6756001E64FFF100150C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6755DA1E64FFEF00150C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6755E91E64FFF100150C2F /* ViewController.m in Sources */,
+				FF6755E61E64FFF100150C2F /* AppDelegate.m in Sources */,
+				FF6756241E65005F00150C2F /* DialogManage.m in Sources */,
+				FF67562C1E65115100150C2F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				FF6756291E65111D00150C2F /* TPKeyboardAvoidingScrollView.m in Sources */,
+				FF6755E31E64FFF100150C2F /* main.m in Sources */,
+				FF6756251E65005F00150C2F /* DialogSelectView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6755F31E64FFF100150C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6755FC1E64FFF100150C2F /* HYSelectViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6755FE1E64FFF100150C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6756071E64FFF100150C2F /* HYSelectViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6755F91E64FFF100150C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6755DD1E64FFEF00150C2F /* HYSelectView */;
+			targetProxy = FF6755F81E64FFF100150C2F /* PBXContainerItemProxy */;
+		};
+		FF6756041E64FFF100150C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6755DD1E64FFEF00150C2F /* HYSelectView */;
+			targetProxy = FF6756031E64FFF100150C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF6755EA1E64FFF100150C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6755EB1E64FFF100150C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF6755EF1E64FFF100150C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6755F01E64FFF100150C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6756091E64FFF100150C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF67560A1E64FFF100150C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF67560C1E64FFF100150C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HYSelectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF67560D1E64FFF100150C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HYSelectView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF67560F1E64FFF100150C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty.HYSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYSelectView.app/HYSelectView";
+			};
+			name = Debug;
+		};
+		FF6756101E64FFF100150C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty.HYSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYSelectView.app/HYSelectView";
+			};
+			name = Release;
+		};
+		FF6756121E64FFF100150C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty.HYSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYSelectView;
+			};
+			name = Debug;
+		};
+		FF6756131E64FFF100150C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty.HYSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYSelectView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6755D91E64FFEF00150C2F /* Build configuration list for PBXProject "HYSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6756091E64FFF100150C2F /* Debug */,
+				FF67560A1E64FFF100150C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF67560B1E64FFF100150C2F /* Build configuration list for PBXNativeTarget "HYSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF67560C1E64FFF100150C2F /* Debug */,
+				FF67560D1E64FFF100150C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF67560E1E64FFF100150C2F /* Build configuration list for PBXNativeTarget "HYSelectViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF67560F1E64FFF100150C2F /* Debug */,
+				FF6756101E64FFF100150C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF6756111E64FFF100150C2F /* Build configuration list for PBXNativeTarget "HYSelectViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6756121E64FFF100150C2F /* Debug */,
+				FF6756131E64FFF100150C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6755D61E64FFEF00150C2F /* Project object */;
+}
