@@ -5,7 +5,7 @@
     - pod 'HYHYSelectView'
 
 # 实际显示效果
-  ![]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)
+   ![demo图片展示]( https://github.com/hrobrty/HYHYSelectView/raw/master/picture/tow.png)
  
 # 运行环境
     - object-c
@@ -80,7 +80,7 @@
  ```
  
  # Contact
-     如果你发现bug或有更好的改进，please pull reqeust me
+   － 如果你发现bug或有更好的改进，please pull reqeust me
         
  #  码农相关共享代码：
-     ＊ [HYDataBase 数据库建表类(给星星哟！)](https://github.com/hrobrty/HYDataBase.git)
+   － ＊ [HYDataBase 数据库建表类(给星星哟！)](https://github.com/hrobrty/HYDataBase.git)
